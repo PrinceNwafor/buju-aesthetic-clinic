@@ -1774,13 +1774,13 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
   display: flex; align-items: center; justify-content: center;
   background: #fff;
   border-radius: var(--radius-lg);
-  padding: 9px 13px;
+  padding: 7px;
   border: 1px solid rgba(36,59,57,0.08);
   box-shadow: 0 10px 28px rgba(36,59,57,0.22), 0 2px 6px rgba(36,59,57,0.10);
 }
-/* Bigger, crisply downscaled logo so the mark reads clearly */
+/* Cropped square mark fills the badge so the logo reads clearly */
 .brand__chip img {
-  height: 52px; width: auto; display: block;
+  height: 46px; width: 46px; display: block; object-fit: contain;
   image-rendering: -webkit-optimize-contrast;
 }
 .brand__name {
@@ -1800,7 +1800,7 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
 .nav--transparent .brand__name { color: #fff; }
 .nav--transparent .brand__name small { color: var(--color-accent-light); }
 /* Footer logo a touch larger on the dark background */
-.footer__brand .brand__chip img { height: 56px; }
+.footer__brand .brand__chip img { height: 50px; width: 50px; }
 .footer__brand .brand__name { color: #fff; }
 
 /* gold accent helpers */
@@ -2014,9 +2014,9 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
   /* Bold, visible logo on phones — and hide the nav CTAs so nothing overflows
      (the hero CTAs + floating WhatsApp + menu keep booking one tap away). */
   .brand { gap: var(--space-3); }
-  .brand__chip { padding: 7px 10px; }
-  .brand__chip img { height: 42px; }
-  .footer__brand .brand__chip img { height: 52px; }
+  .brand__chip { padding: 6px; }
+  .brand__chip img { height: 40px; width: 40px; }
+  .footer__brand .brand__chip img { height: 46px; width: 46px; }
   .brand__name { font-size: var(--text-xl); }
   .brand__name small { font-size: 10px; letter-spacing: 0.2em; }
   .nav__actions .btn { display: none; }
