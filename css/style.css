@@ -1,7 +1,7 @@
 /* ==========================================================================
-   NONY AESTHETIC CLINIC — STYLESHEET
+   BUJU AESTHETIC CLINIC — STYLESHEET
    Design System: Elegant, Warm, Visual, Trust-heavy (premium skincare)
-   Palette derived from the Nony logo (jade/teal + deep slate) + nude neutrals
+   Palette derived from the Buju logo (jade/teal + deep slate) + nude neutrals
    Base design system adapted from the Clinic Master Template.
    ========================================================================== */
 
@@ -9,7 +9,7 @@
    1. DESIGN TOKENS (CSS VARIABLES)
    -------------------------------------------------------------------------- */
 :root {
-  /* Brand Palette — derived from the Nony logo (jade/teal + deep slate)
+  /* Brand Palette — derived from the Buju logo (jade/teal + deep slate)
      warmed with nude/cream neutrals + a soft gold for a premium feel */
   --color-primary:       #243B39;   /* deep slate-green — elegance & trust */
   --color-primary-dark:  #162624;
@@ -1748,7 +1748,7 @@ blockquote {
 }
 
 /* ==========================================================================
-   27. NONY AESTHETIC — BRAND OVERRIDES & NEW COMPONENTS
+   27. BUJU AESTHETIC — BRAND OVERRIDES & NEW COMPONENTS
    ========================================================================== */
 
 /* Mobile menu overlay must cover the whole fixed header stack when open */
@@ -1994,7 +1994,7 @@ h1, h2, h3, h4, h5, h6 { letter-spacing: -0.01em; }
 }
 
 /* ==========================================================================
-   28. NONY — RESPONSIVE REFINEMENTS
+   28. BUJU — RESPONSIVE REFINEMENTS
    ========================================================================== */
 @media (max-width: 1024px) {
   .reel-grid { grid-template-columns: repeat(2, 1fr); }

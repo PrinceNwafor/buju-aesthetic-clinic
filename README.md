@@ -1,6 +1,6 @@
-# Nony Aesthetic Clinic — Website Preview
+# Buju Aesthetic Clinic — Website Preview
 
-A fast, mobile-first, single-page website **preview** for **Nony Aesthetic Clinic**, an
+A fast, mobile-first, single-page website **preview** for **Buju Aesthetic Clinic**, an
 aesthetic & skincare clinic in **Port Harcourt**. Built to turn promo/ad traffic into real
 **consultation bookings** (and repeat-care funnels) instead of scattered DMs.
 
@@ -14,7 +14,7 @@ Open `index.html` directly in a browser, **or** serve the folder (recommended, s
 videos and WhatsApp links behave like production):
 
 ```bash
-# from inside the nony-aesthetic-clinic/ folder
+# from inside the buju-aesthetic-clinic/ folder
 python -m http.server 5173
 # then open http://localhost:5173
 ```
@@ -35,12 +35,12 @@ Everything is plain text and easy to change.
 
 | What | Where |
 |------|-------|
-| **WhatsApp number** | `js/nony.js` → `CONFIG.whatsapp` (full intl format, e.g. `2348012345678`) |
-| **Default WhatsApp message** | `js/nony.js` → `CONFIG.defaultMessage` |
+| **WhatsApp number** | `js/buju.js` → `CONFIG.whatsapp` (full intl format, e.g. `2348012345678`) |
+| **Default WhatsApp message** | `js/buju.js` → `CONFIG.defaultMessage` |
 | **Phone number** | search `+234 900 000 0000` / `+2349000000000` in `index.html` |
 | **Prices (₦)** | the `.menu-card__price` values in `index.html` (Treatments section) |
 | **Address & map** | the Location section in `index.html` (replace the Google Maps `iframe` `src` + address line) |
-| **Doctor / aesthetician name** | "Why Nony" section — add the real certified name (HTML comment shows where) |
+| **Doctor / aesthetician name** | "Why Buju" section — add the real certified name (HTML comment shows where) |
 | **HMO / insurance details** | add a block in the Treatments or Location section if accepted |
 | **SEO title / description** | `<head>` of `index.html` |
 | **Brand colours** | `css/style.css` → `:root` (`--color-primary`, `--color-accent`, `--color-gold`, …) |
@@ -66,10 +66,9 @@ assets/
 To add more **before/after** photos, replace the two dashed "Add Result Photo"
 placeholders in the Results section with `<img>` tags like the first one.
 
-> ⚠️ **Brand note:** the supplied `logo.png` and `before-after-1.jpg` currently carry
-> **"Buju Aesthetic Clinic"** branding. All copy/SEO on the page already says
-> **"Nony Aesthetic Clinic"** — swap in the final **Nony** logo (same path
-> `assets/logo.png`) and un-watermarked photos to finish the rebrand.
+> ℹ️ **Brand note:** the supplied `logo.png` and `before-after-1.jpg` already carry the
+> **Buju Aesthetic Clinic** brand, matching all copy/SEO on the page. For production you
+> may optionally swap in higher-resolution versions (same paths) — no code changes needed.
 
 ---
 

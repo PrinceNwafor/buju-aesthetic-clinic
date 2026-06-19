@@ -1,5 +1,5 @@
 /* ==========================================================================
-   NONY AESTHETIC CLINIC — page interactions
+   BUJU AESTHETIC CLINIC — page interactions
    --------------------------------------------------------------------------
    ⚙️  EDIT THESE TWO LINES with the clinic's real details, then you're live.
    ========================================================================== */
@@ -11,7 +11,7 @@
     // WhatsApp number in FULL international format, digits only (234 = Nigeria).
     whatsapp: '2349000000000',
     // Friendly default message used by the "Chat on WhatsApp" buttons.
-    defaultMessage: "Hello Nony Aesthetic Clinic 👋 I'd like to book a skin consultation."
+    defaultMessage: "Hello Buju Aesthetic Clinic 👋 I'd like to book a skin consultation."
   };
 
   /* ===== 2. Helpers ===================================================== */
@@ -25,7 +25,7 @@
     if (!el) return;
     var msg = CONFIG.defaultMessage;
     if (id === 'product-wa') {
-      msg = "Hello Nony Aesthetic Clinic 👋 I'd like to ask about skincare products for my skin.";
+      msg = "Hello Buju Aesthetic Clinic 👋 I'd like to ask about skincare products for my skin.";
     }
     el.setAttribute('href', waLink(msg));
     el.setAttribute('target', '_blank');
@@ -62,7 +62,7 @@
       }
 
       var lines = [
-        "Hello Nony Aesthetic Clinic 👋 I'd like to book a consultation.",
+        "Hello Buju Aesthetic Clinic 👋 I'd like to book a consultation.",
         '',
         '• Name: ' + name,
         '• Phone: ' + phone,
